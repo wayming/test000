@@ -19,7 +19,7 @@ module.exports = config => {
         },
         reporters: ['dots'],
         singleRun: true,
-        webpack: require('./webpack.test.js'),
+        webpack: require('./webpack.test'),
         webpackServer: {
             noInfo: true
         }

@@ -15,7 +15,7 @@
     "buildserver": "tsc; babel src -d lib",
     "server": "node lib/server/server.js",
     "dev": "webpack-dev-server --config configs/webpack.dev.js",
-    "unit": "karma start configs/karma.conf.js --browsers PhantomJS",
+    "unit": "karma start configs/karma.conf.js --browsers PhantomJS --log-level debug",
     "lint": "tslint ./src/**/*.ts"
   },
   "dependencies": {
@@ -41,6 +41,7 @@
     "zone.js": "^0.6.25"
   },
   "devDependencies": {
+    "awesome-typescript-loader": "^3.0.0-beta.9",
     "babel-cli": "^6.18.0",
     "babel-preset-latest": "^6.16.0",
     "concurrently": "^3.0.0",
@@ -57,10 +58,12 @@
     "path": "^0.12.7",
     "phantomjs-prebuilt": "^2.1.13",
     "raw-loader": "^0.5.1",
-    "ts-loader": "^0.9.5",
-    "typescript": "^2.0.3",
-    "typings": "^1.4.0",
-    "webpack": "^1.13.2"
+    "ts-loader": "^1.2.2",
+    "tslint-loader": "^3.2.1",
+    "typescript": "^2.0.10",
+    "typings": "^2.0.0",
+    "webpack": "^1.13.3",
+    "webpack-dev-server": "^1.16.2"
   },
   "keywords": [
     "svg",
