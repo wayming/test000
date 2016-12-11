@@ -14,7 +14,7 @@
     "build": "npm run webpack",
     "buildserver": "tsc; babel src -d lib",
     "server": "node lib/server/server.js",
-    "dev": "webpack-dev-server --config configs/webpack.dev.js",
+    "dev": "webpack-dev-server --config configs/webpack.dev.js -w",
     "unit": "karma start configs/karma.conf.js --browsers PhantomJS --log-level debug",
     "lint": "tslint ./src/**/*.ts"
   },
