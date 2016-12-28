@@ -1,5 +1,4 @@
-export const fish1: string = `
-<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+export const fish: string = `
 <svg
    xmlns:dc="http://purl.org/dc/elements/1.1/"
    xmlns:cc="http://web.resource.org/cc/"
@@ -159,5 +158,5 @@ Made by Mateusz Viste &quot;Fox&quot;
 </svg>
 `;
 
-export const fish: string = `<svg><filter id="gaussian-blur"><feGaussianBlur stdDeviation="3"></feGaussianBlur></filter></svg>
+export const fish1: string = `<svg><filter id="gaussian-blur"><feGaussianBlur stdDeviation="3"></feGaussianBlur></filter></svg>
 `

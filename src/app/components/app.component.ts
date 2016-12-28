@@ -5,7 +5,7 @@ import { SVG } from "../models";
 
 @Component({
   selector: "my-app",
-  template: require('./app.component.html')
+  template: require('./app.html')
 })
 export class AppComponent { 
   svgs: SVG[] = null;
